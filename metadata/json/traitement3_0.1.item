@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_f-mqgWCMEeuAH4q5pauU7g" name="traitement3" dataPackage="_f-mqhGCMEeuAH4q5pauU7g" JSONFilePath="D:/DWH/TRAITEMENT/traitement2/1.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_f-mqgmCMEeuAH4q5pauU7g" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_f-mqg2CMEeuAH4q5pauU7g" RelativeXPathQuery="ligne[*]" TagName="ligne"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_f-mqhGCMEeuAH4q5pauU7g" name="default" dataManager="_f-mqgWCMEeuAH4q5pauU7g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_f-mqhWCMEeuAH4q5pauU7g" id="_7E2UgGCLEeuAH4q5pauU7g" label="traitement_3">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_f-mqhmCMEeuAH4q5pauU7g" label="ligne" length="326" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

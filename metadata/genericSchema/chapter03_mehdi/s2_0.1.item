@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_jk8fAFJREeq2n6xQJu7ECg" name="repository.metadataGenericSchema" dataPackage="_jk8fAVJREeq2n6xQJu7ECg"/>
+  <TalendMetadata:GenericPackage xmi:id="_jk8fAVJREeq2n6xQJu7ECg" name="repository.metadataGenericSchema" dataManager="_jk8fAFJREeq2n6xQJu7ECg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jk8fAlJREeq2n6xQJu7ECg" id="_dgm-AFJREeq2n6xQJu7ECg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jk8fA1JREeq2n6xQJu7ECg" name="code" label="code" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jk8fBFJREeq2n6xQJu7ECg" name="nom" label="nom" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jk8fBVJREeq2n6xQJu7ECg" name="prenom" label="prenom" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jk8fBlJREeq2n6xQJu7ECg" name="age" label="age" length="-1" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_nQnB4Dm8EeyEptpcm16G5A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_4klEEDm8EeyEptpcm16G5A" comment="" name="job_pid" prompt="job_pid?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_4klEETm8EeyEptpcm16G5A" comment="" name="job_name" prompt="job_name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_4klEEjm8EeyEptpcm16G5A" comment="" name="job_status" prompt="job_status?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_4klEEzm8EeyEptpcm16G5A" comment="" name="start_time" prompt="start_time?" promptNeeded="false" type="id_Date" value="2021-06-13 13:19:56"/>
+  <contextParameter xmi:id="_4klEFDm8EeyEptpcm16G5A" comment="" name="end_time" prompt="end_time?" promptNeeded="false" type="id_Date" value="2021-06-13 13:19:56"/>
+  <contextParameter xmi:id="_4klEFTm8EeyEptpcm16G5A" comment="" name="src_cnt" prompt="src_cnt?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_4klEFjm8EeyEptpcm16G5A" comment="" name="tgt_cnt" prompt="tgt_cnt?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_4klEFzm8EeyEptpcm16G5A" comment="" name="lkp_cnt" prompt="lkp_cnt?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_4klEGDm8EeyEptpcm16G5A" comment="" name="rej_cnt" prompt="rej_cnt?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_4klEGTm8EeyEptpcm16G5A" comment="" name="excec_key" prompt="excec_key?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_gWFPADnYEeyEptpcm16G5A" comment="" name="pid" prompt="pid?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_gWFPATnYEeyEptpcm16G5A" comment="" name="father_pid" prompt="father_pid?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_WpHoMDndEeyEptpcm16G5A" comment="" name="runnable" prompt="runnable?" promptNeeded="false" type="id_Integer" value="0"/>
+</talendfile:ContextType>

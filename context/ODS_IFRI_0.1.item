@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_caBQcDcXEeytLtL0rWG3EA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_caBQcTcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Database" prompt="ODS_IFRI_Database?" promptNeeded="false" type="id_String" value="IFRI"/>
+  <contextParameter xmi:id="_caBQcjcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Login" prompt="ODS_IFRI_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_caBQczcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Schema" prompt="ODS_IFRI_Schema?" promptNeeded="false" type="id_String" value="ODS_IFRI"/>
+  <contextParameter xmi:id="_caBQdDcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Password" prompt="ODS_IFRI_Password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_caBQdTcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Port" prompt="ODS_IFRI_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_caBQdjcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Server" prompt="ODS_IFRI_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_caBQdzcXEeytLtL0rWG3EA" comment="" name="ODS_IFRI_Additional_Parameters" prompt="ODS_IFRI_Additional_Parameters?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

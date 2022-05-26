@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_AUnNsWB7EeuAH4q5pauU7g" name="maxxing_test" dataPackage="_AUnNtmB7EeuAH4q5pauU7g" JSONFilePath="D:/DWH/TRAITEMENT/traitement1/full.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_AUnNsmB7EeuAH4q5pauU7g" LimitBoucle="50" AbsoluteXPathQuery="$.fichiers[*]">
+      <schemaTargets xmi:id="_AUnNs2B7EeuAH4q5pauU7g" RelativeXPathQuery="$.fichiers[*].nbrlignes" TagName="nbrlignes"/>
+      <schemaTargets xmi:id="_AUnNtGB7EeuAH4q5pauU7g" RelativeXPathQuery="$.fichiers[*].lignes[*]" TagName="lignes"/>
+      <schemaTargets xmi:id="_AUnNtWB7EeuAH4q5pauU7g" RelativeXPathQuery="nom" TagName="nom"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AUnNtmB7EeuAH4q5pauU7g" name="default" dataManager="_AUnNsWB7EeuAH4q5pauU7g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AUnNt2B7EeuAH4q5pauU7g" id="_g0B70GB6EeuAH4q5pauU7g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AUnNuGB7EeuAH4q5pauU7g" label="nbrlignes" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AUnNuWB7EeuAH4q5pauU7g" label="lignes" length="1572" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AUnNumB7EeuAH4q5pauU7g" label="nom" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

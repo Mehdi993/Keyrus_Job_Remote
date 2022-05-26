@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_EUbEIIHvEey02eACDj9pkA" name="rohan" id="_EUTvYIHvEey02eACDj9pkA" dataPackage="_EUbEKIHvEey02eACDj9pkA" JSONFilePath="D:/Talend/Personal_Talend_Projects/Project_One_Demo_Ressources/JSON/j01_rohan.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_EUbEIYHvEey02eACDj9pkA" LimitBoucle="50" AbsoluteXPathQuery="$.results.books[*]">
+      <schemaTargets xmi:id="_sjnwUIINEey02eACDj9pkA" RelativeXPathQuery="rank" TagName="rank"/>
+      <schemaTargets xmi:id="_sjnwUYINEey02eACDj9pkA" RelativeXPathQuery="publisher" TagName="publisher"/>
+      <schemaTargets xmi:id="_sjnwUoINEey02eACDj9pkA" RelativeXPathQuery="description" TagName="description"/>
+      <schemaTargets xmi:id="_sjnwU4INEey02eACDj9pkA" RelativeXPathQuery="price" TagName="price"/>
+      <schemaTargets xmi:id="_sjnwVIINEey02eACDj9pkA" RelativeXPathQuery="title" TagName="title"/>
+      <schemaTargets xmi:id="_sjnwVYINEey02eACDj9pkA" RelativeXPathQuery="author" TagName="author"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_EUbEKIHvEey02eACDj9pkA" name="default" dataManager="_EUbEIIHvEey02eACDj9pkA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_EUbEKYHvEey02eACDj9pkA" id="_neL4oIHuEey02eACDj9pkA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EUbEKoHvEey02eACDj9pkA" label="rank" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EUbEK4HvEey02eACDj9pkA" label="publisher" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EUbELIHvEey02eACDj9pkA" label="description" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EUbELYHvEey02eACDj9pkA" label="price" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EUbELoHvEey02eACDj9pkA" label="title" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EUbEL4HvEey02eACDj9pkA" label="author" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_vwX6kFuJEeyz7JejzwAMiQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_vwX6kVuJEeyz7JejzwAMiQ" comment="" name="cookbookDirectory" prompt="cookbookDirectory?" promptNeeded="false" type="id_Directory" value="&quot;C:/Users/mehdi.mhedhbi/Desktop/Talend/Personal_Talend_Projects/CookBookRessources/cookbookData/tesing_context_dev/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_vwX6kluJEeyz7JejzwAMiQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_vwX6k1uJEeyz7JejzwAMiQ" comment="" name="cookbookDirectory" prompt="cookbookDirectory?" promptNeeded="false" type="id_Directory" value="&quot;C:/Users/mehdi.mhedhbi/Desktop/Talend/Personal_Talend_Projects/CookBookRessources/cookbookData/testing_context_prod/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

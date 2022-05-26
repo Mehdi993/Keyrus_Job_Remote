@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/IFRII/SELL_OUT_EXCEL</deletedFolders>
+  <deletedFolders>process/IFRII/SELL_OUT_EXCEL/V4</deletedFolders>
+  <deletedFolders>process/IFRII/SELL_OUT_EXCEL/V4/ODS_IFRI_2</deletedFolders>
+  <deletedFolders>process/IFRII/V06/Files_traitment_V06</deletedFolders>
+  <deletedFolders>process/IFRII/V06/ODS_V06</deletedFolders>
+  <deletedFolders>process/IFRII/V06/V04</deletedFolders>
+</recyclebin:RecycleBin>

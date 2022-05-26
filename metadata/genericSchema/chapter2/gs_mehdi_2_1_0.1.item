@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_XoqyUE90EeqiNtroU4ITpw" comment="connectionComment" label="connectionLabel" dataPackage="_XoqyUU90EeqiNtroU4ITpw"/>
+  <TalendMetadata:GenericPackage xmi:id="_XoqyUU90EeqiNtroU4ITpw" dataManager="_XoqyUE90EeqiNtroU4ITpw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XoqyUk90EeqiNtroU4ITpw" id="_51zxEE90EeqiNtroU4ITpw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XoqyU090EeqiNtroU4ITpw" name="name" id="2236" label="name" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_XoqyVE90EeqiNtroU4ITpw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XoqyVU90EeqiNtroU4ITpw" name="DateOfBirth" id="2237" label="DateOfBirth" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;">
+        <initialValue xmi:id="_XoqyVk90EeqiNtroU4ITpw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XoqyV090EeqiNtroU4ITpw" name="timestamp" id="2238" label="timestamp" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;yyyy/MM/dd HH:mm:ss.SSS&quot;">
+        <initialValue xmi:id="_XoqyWE90EeqiNtroU4ITpw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XoqyWU90EeqiNtroU4ITpw" name="age" id="2239" label="age" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_XoqyWk90EeqiNtroU4ITpw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6PuF4E90EeqiNtroU4ITpw" name="email_address" label="email_address" length="50" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

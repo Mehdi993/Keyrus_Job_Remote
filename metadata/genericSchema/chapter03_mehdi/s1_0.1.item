@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_hlLpIFHBEeqLO8LdF7qL0g" name="repository.metadataGenericSchema" dataPackage="_hlLpIVHBEeqLO8LdF7qL0g"/>
+  <TalendMetadata:GenericPackage xmi:id="_hlLpIVHBEeqLO8LdF7qL0g" name="repository.metadataGenericSchema" dataManager="_hlLpIFHBEeqLO8LdF7qL0g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hlLpIlHBEeqLO8LdF7qL0g" id="_a7DTcFHBEeqLO8LdF7qL0g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hlMQMFHBEeqLO8LdF7qL0g" name="code" label="code" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hlMQMVHBEeqLO8LdF7qL0g" name="nom" label="nom" length="5" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hlMQMlHBEeqLO8LdF7qL0g" name="prenom" label="prenom" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hlMQM1HBEeqLO8LdF7qL0g" name="date_nassiance" label="date_nassiance" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
